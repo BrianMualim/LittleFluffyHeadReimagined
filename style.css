@@ -1,0 +1,117 @@
+@font-face {
+    font-family: DiscoSociety;
+    src: url(disco_society/Disco\ Society\ -\ Personal\ Use.otf);
+}
+
+html{
+    height: 100%;
+}
+
+.backgroundimg{
+    background-image: url(images/Boba\ Background\ V3.png);
+}
+
+.container{
+    min-height: 1000px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bigmessage p{
+    font-family: DiscoSociety;
+    text-align: center;
+    align-items: center;
+    font-size: 10rem;
+    padding-top: 100px;
+}
+
+header{
+    background-color: rgba(255,221,156,255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img{
+    max-width: 50%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.navbutton{
+    padding: 0rem 2rem 0rem 2rem;
+    font-size: 2rem;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.iconbuttons{
+    padding: 0rem 2rem 0rem 2rem;
+    font-size: 2rem;
+}
+
+.drinks{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+}
+
+.drinks img, .drinkdesc1, .drinkdesc2, .drinkdesc3{
+    padding: 0px 20px 0px 20px;
+    max-width: 800px;
+}
+
+.drinkdesc1, .drinkdesc2, .drinkdesc3{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.maps{
+    text-align: center;
+}
+
+.outro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 200px 0px;
+}
+
+.outroparagraph{
+    flex: 30%;
+    margin-left: 10rem;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    display: flex;
+    padding: 200px 0px 200px 0px;
+}
+
+.aboutus{
+    flex:20%;
+    padding-right: 30rem;
+    max-width: 30rem;
+}
+
+.contactus{
+    flex:20%;
+    padding-left: 30rem;
+    max-width: 30rem;
+}
+
+.aboutus h1, .contactus h1{
+    font-size: 4rem;
+
+}
