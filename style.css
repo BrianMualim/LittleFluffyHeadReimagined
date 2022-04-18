@@ -25,6 +25,12 @@ html{
     padding-top: 100px;
 }
 
+.warningmessage{
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
 header{
     background-color: rgba(255,221,156,255);
     display: flex;
@@ -37,12 +43,21 @@ header{
 
 nav{
     display: flex;
-    align-items: center;
+    align-items:center;
 }
 
 .navbutton{
-    padding: 0rem 2rem 0rem 2rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
     font-size: 2rem;
+    border-radius: 2px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbutton:hover {
+    background-color: black;
+    color: rgba(255,221,156,255);
+    transition-duration: 1s;
 }
 
 .icons{
@@ -50,9 +65,8 @@ nav{
     align-items: center;
 }
 
-.iconbuttons{
+.material-icons{
     padding: 0rem 2rem 0rem 2rem;
-    font-size: 2rem;
 }
 
 .drinks{
@@ -113,5 +127,4 @@ footer{
 
 .aboutus h1, .contactus h1{
     font-size: 4rem;
-
 }
